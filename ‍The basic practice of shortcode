@@ -1,0 +1,97 @@
+<?php
+/**
+ * Plugin Name: shortcode
+ * Plugin URI:  Plugin URL Link
+ * Author:      Plugin Author Name
+ * Author URI:  Plugin Author Link
+ * Description: This plugin make for pratice wich is "shortcode".
+ * Version:     0.1.0
+ * License:     GPL-2.0+
+ * License URL: http://www.gnu.org/licenses/gpl-2.0.txt
+ * text-domain: sc
+*/
+// function button_function($attribute){
+//  return sprintf( '<a href="%s">%s</a>',
+//  $attribute['url'],
+//  $attribute['title']
+//  );
+// }
+// add_shortcode('btn', 'button_function');
+
+
+// function btn_function($att){
+//     $default = array(
+//         'url'=>'www.google.com',
+//         'title'=>__("Go to the link",'sc')
+//     );
+//     $btn_att = shortcode_atts($default, $att);
+// return sprintf( 
+
+//             '<a href="%s">%s</a>',
+//             $btn_att['url'],
+//             $btn_att['title']
+
+//     );
+// }
+// add_shortcode('btn', 'btn_function');
+
+
+// function link_function($att){
+//     $default = array(
+//         'url'=>'www.google.com',
+//         'text'=>'Go to the link'
+//     );
+//     $arr_function = shortcode_atts($default, $att);
+//     return sprintf(
+//         '<a href="%s">%s</a>',
+//         $arr_function['url'],
+//         $arr_function['text']
+//         // $att['url'],
+//         // $att['text']
+//     );
+// }
+// add_shortcode('link', 'link_function');
+// function link_function($attribute,$content=''){
+//     $default = array(
+//         'url' => 'www.google.com',
+//         'text' => __('Link','sc')
+    
+//     );
+    
+//     $array_atts = shortcode_atts($default, $attribute);
+//     return sprintf(
+//         "<a href='%s'>%s</a>",
+//         $array_atts['url'],
+//          $content
+//         //$array_atts['text']
+//     );
+// }
+
+// add_shortcode('link', 'link_function');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
